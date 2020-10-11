@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>rock, paper, scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="lib/style.css">
+</head>
+
+<body>
+    <div class="cover">
+        <h1>please rotate your device to play</h1>
+    </div>
+
+
+    <div class="game">
+        <div class="userInput">
+            <select name="select" id="select">
+                <option value="rock">rock</option>
+                <option value="paper">paper</option>
+                <option value="scissors">scissors</option>
+            </select>
+            <button id="throw">throw</button>
+            <br />
+            <img id="user" src="img/br.png" alt="user">
+            <h2 class="state">rock</h2>
+        </div>
+
+        <div class="computer">
+            <div class="title">
+                <h2>computer</h2>
+            </div>
+            <br />
+            <img id="compImg" src="img/br.png" alt="computer">
+            <h2 class="comp-state">rock</h2>
+        </div>
+       <div class="win">
+         <h3 class="tries">rolls: 0</h3>
+         <h3 class="usert">user: 0</h3>
+         <h3 class="compt">comp: 0</h3><br />
+         <h1 class="winningMessage"></h1>
+       </div>
+
+    </div>
+    <script src="lib/index.js"></script>
+</body>
+
+</html>

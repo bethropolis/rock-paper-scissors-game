@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: #262626;
+    color: #09090a;
+    font-family: monospace;
+    display: flex;
+    user-select: none;
+    overflow: hidden;
+}
+
+.cover {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+    align-content: center;
+    z-index: 10;
+}
+
+.game {
+    position: fixed;
+    background: #2d2d2d;
+    width: 100%;
+    max-width: 730px;
+    height: 310px;
+}
+
+.userInput {
+    position: fixed;
+    width: 180px;
+    height: 310px;
+    background: #333;
+}
+
+.choice > div {
+    width: 120px;
+    height: 120px;
+}
+
+select {
+    position: relative;
+    width: 150px;
+    top: 10px;
+    margin-bottom: 18px;
+}
+
+button {
+    position: relative;
+    width: 140px;
+    height: 34px;
+    padding: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: 5px 11px 3px #000;
+    margin-bottom: 17px;
+    background: #3A3D77;
+    transition-duration: .85s;
+}
+
+
+button:hover {
+    background-image: linear-gradient(300deg, #3A3D77, #39badd);
+    box-shadow: 1px 1px 4px #000;
+
+}
+
+button:active {
+    background:  #39badd;
+}
+
+img {
+    box-shadow: 3px 3px 9px #000;
+    width: 150px;
+    height: auto;
+    border-radius: 6px;
+    transition: 1.3s;
+}
+
+img:hover {
+    box-shadow: 0 0 0 #000;
+    border: none;
+    outline: none;
+
+}
+
+
+.computer {
+    position: absolute;
+    width: 180px;
+    height: 310px;
+    right: 0;
+    background: #333;
+}
