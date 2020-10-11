@@ -1,6 +1,6 @@
 # Rock paper and scissors game
 ---
- ##this this is an easy and simple  rock, paper and scissors game
+ this this is an easy and simple  rock, paper and scissors game
 
 This are overviews 👀!
 
